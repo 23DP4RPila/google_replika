@@ -1,23 +1,21 @@
+#toprow {
+  display: flex;
+  align-items:flex-start;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  padding: 0 4px;
+}
+
 #google_logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-input{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#section {
-  display: flex;
-  justify-content: center ;
-  gap: 10px;
-  margin: 10px;
 }
 
 #searchbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px; 
   height: 30px;
   border-radius: 10px;
@@ -25,10 +23,10 @@ input{
   background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
   background-size: 20px;
 }
-#toprow {
+
+#twobuttons {
   display: flex;
-  align-items:flex-start;
-  box-sizing: border-box;
-  justify-content: flex-end;
-  padding: 0 4px;
+  justify-content: center ;
+  gap: 10px;
+  margin: 10px;
 }
