@@ -1,0 +1,34 @@
+#google_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section {
+  display: flex;
+  justify-content: center ;
+  gap: 10px;
+  margin: 10px;
+}
+
+#searchbox {
+  width: 500px; 
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 20px;
+}
+#toprow {
+  display: flex;
+  align-items:flex-start;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  padding: 0 4px;
+}
